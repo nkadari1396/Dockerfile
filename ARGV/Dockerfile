@@ -1,4 +1,4 @@
-ARG version=9
+ARG VERSION=9
 FROM almalinux:${version}
 ARG DB_HOST=mysql \
     DB_USER=expense \
