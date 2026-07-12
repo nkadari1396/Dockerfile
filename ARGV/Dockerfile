@@ -1,5 +1,5 @@
 ARG VERSION=9
-FROM almalinux:${version}
+FROM almalinux:${VERSION}
 ARG DB_HOST=mysql \
     DB_USER=expense \
     DB_PASSWORD=ExpenseApp@1 \
